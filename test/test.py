@@ -1,18 +1,30 @@
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
 
+    def fizzbuzz(number):
+        if number % 3 == 0 and number % 5 == 0:
+            return "FizzBuzz"
+        elif number % 3 == 0:
+            return "Fizz"
+        elif number % 5 == 0:
+            return "Buzz"
+        else:
+            return str(number)
+
     def test_fizz(self):
-        self.assertTrue(3%3 == 0)
-        self.assertFalse(4%3 == 0)
+        self.assertEqual(self.fizzbuzz(3), "Fizz")
 
     def test_buzz(self):
-        self.assertTrue(10%5 == 0)
-        self.assertFalse(4%5 == 0)
+        self.assertEqual(self.fizzbuzz(5), "Buzz")
 
     def test_fizzBuzz(self):
-        self.assertTrue(15%3 == 0 and 15%5 == 0)
-        self.assertFalse(4%3 == 0 and 4%5 == 0)
+        self.assertEqual(self.fizzbuzz(15), "FizzBuzz")
+
+    def test_fizzBuzz(self):
+        self.assertEqual(self.fizzbuzz(7), "7")
+
 
 
 if __name__ == '__main__':
