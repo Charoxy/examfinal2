@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dac6c0c-7f5a-486b-b8ab-af98bef7a068" name="Changes" comment="init" />
+    <list default="true" id="9dac6c0c-7f5a-486b-b8ab-af98bef7a068" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/unit_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/unit_test.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702039512830</updated>
-      <workItem from="1702039513892" duration="1518000" />
+      <workItem from="1702039513892" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
